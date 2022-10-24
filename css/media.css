@@ -1,0 +1,133 @@
+@media (width: 2560px){
+    .cabecalho-logo img{
+        width: 10rem;
+        height: 4rem;
+    }
+
+    .area-login .box-area-login{
+        width: 39.75rem;
+        height: 36rem;
+    }
+
+    .area-login .box-area-login .image-titulo-login img{
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .area-login .box-area-login .image-titulo-login h1{
+        font-size: 2rem;
+    }
+
+    .area-login .box-area-login .text-support-login,
+    .area-login .box-area-login .estilo-nome-email-senha,
+    .area-login .box-area-login .checkbox-recover-password .lembre{
+        font-size: 1.3rem;
+    }
+
+    .area-login .box-area-login form .campo-email-senha{
+        width: 24rem;
+        height: 3.55rem;
+    }
+
+    .area-login .box-area-login form .campo-email-senha input{
+        width: 21.9rem;
+        height: 3.2rem;
+    }
+
+    .area-login .box-area-login .checkbox-recover-password{
+        width: 22.91rem;
+    }
+
+    .area-login .box-area-login .checkbox-recover-password a{
+        font-size: 1rem;
+    }
+    .area-login .box-area-login button{
+        width: 24rem;
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    .area-login .box-area-login .criar-conta a{
+        font-size: 1.13rem;
+    }
+}
+
+@media (max-width: 1160px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "cabecalho-logo"
+        "area-login";
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 50%; 
+    }
+
+    .cabecalho-logo{
+        grid-area: cabecalho-logo;
+    }
+
+    .image-camp-car img{
+        width: 0%;
+    }
+
+    .area-login{
+        grid-area: area-login;
+    }
+}
+
+@media (max-width: 540px){
+    body{
+        grid-template-rows: 1fr 35%; 
+    }
+
+    .area-login .box-area-login{
+       background-color: var(--background);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .area-login .box-area-login .image-titulo-login{
+        margin-right: 8rem;
+    }
+
+    .area-login .box-area-login .text-support-login{
+        margin-right: 3.5rem;
+    }
+
+    .area-login .box-area-login form .campo-email-senha input{
+        background-color: var(--background);
+    }
+
+    .area-login .box-area-login .checkbox-recover-password div input + label:before{
+        background-color: var(--background);
+    }
+
+    .area-login .box-area-login .criar-conta{
+       margin-left: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .area-login .box-area-login .image-titulo-login{
+        margin-right: 7.7rem;
+    }
+
+    .area-login .box-area-login .text-support-login{
+        margin-right: 3rem;
+    }
+    .area-login .box-area-login form .campo-email-senha{
+        width: 20.9rem;
+        height: 2.75rem;
+    }
+
+    .area-login .box-area-login .checkbox-recover-password{
+        width: 20.9rem;
+    }
+
+    .area-login .box-area-login button{
+        width: 20.9rem;
+    }
+}

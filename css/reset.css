@@ -1,0 +1,35 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+/* Maneira de deixar o icone dentro do compo input.
+/*
+.email{
+    border: 2px solid #000;
+    display: flex;
+    width: 200px;
+    padding: 3px;
+}
+
+.email .email22{
+    border: none;
+    width: 200px;
+    height: 20px;
+}
+
+/*

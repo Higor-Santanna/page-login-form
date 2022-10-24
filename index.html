@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Login form CSS</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho-logo">
+        <img src="./images/logo.svg" alt="logo do camp">
+    </header>
+
+    <picture class="image-camp-car">
+        <source media="(max-width: 720px)" srcset="./images/side-image.jpg">
+        <img src="./images/side-image-2x.jpg" alt="imagem de um carro com uma barraca">
+    </picture>
+
+    <main class="area-login">
+        <div class="box-area-login">
+            <div class="image-titulo-login">
+                <img src="./images/log-in.svg" alt="login">
+                <h1>Faça seu login</h1>
+            </div>
+            <p class="text-support-login">Entre com suas informações de cadastro</p>
+    
+            <form action="index.html" method="post">
+                <label for="email" class="estilo-nome-email-senha">Email</label>
+                <div class="campo-email-senha">
+                    <input type="email" id="email" placeholder="Digite seu email">
+                </div>
+
+                <div>
+                    <label for="senha" class="estilo-nome-email-senha">Senha</label>
+                    <div class="campo-email-senha">
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="senha">
+                        <img src="./images/eye.svg" alt="olho" class="icone-eyes">
+                    </div>
+                </div>
+                <div class="checkbox-recover-password">
+                    <div>
+                        <input type="checkbox" name="lembre-me" id="checkbox">
+                        <label for="checkbox" class="lembre">Lembre-me</label>
+                    </div>
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+                <button>Entrar</button>
+            </form>
+            <p class="criar-conta">Não tem uma conta? <a href="#">Registre-se</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
